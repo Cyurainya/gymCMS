@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/源代码.iml" filepath="$PROJECT_DIR$/.idea/源代码.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gymCMS.iml" filepath="$PROJECT_DIR$/gymCMS.iml" />
     </modules>
   </component>
 </project>
