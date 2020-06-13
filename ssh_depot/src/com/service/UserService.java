@@ -27,32 +27,32 @@ public class UserService {
 		return userDao.getUserTotal();
 	}
 	
-	//通过用户名获取员工信息
+	//通过用户名获取用户信息
 	public User getUser(String username) {
 		return userDao.getUser(username);
 	}
 	
-	//获取所有员工信息
+	//获取所有用户信息
 	public List<User> getUserList(int page, int size) {
 		return userDao.getUserList(page, size);
 	}
 
-	//根据id获取员工信息
+	//根据id获取用户信息
 	public User getUser(int id) {
 		return userDao.getUser(id);
 	}
 
-	//更新员工信息
+	//更新用户信息
 	public boolean update(User user) {
 		return userDao.update(user);
 	}
 
-	//删除员工信息
+	//删除用户信息
 	public boolean delete(User user) {
 		return userDao.delete(user);
 	}
 
-	//添加员工信息
+	//添加用户信息
 	public boolean add(User user) {
 		return userDao.save(user) > 0;
 	}

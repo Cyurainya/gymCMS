@@ -74,8 +74,8 @@ public class UserAction  extends BaseAction{
 			addActionError("用户名已存在");
 			return addPage();
 		}
-	}	
-	
+	}
+
 	//更新页面
 	@Action("userUpdatePage")
 	public String updatePage(){
