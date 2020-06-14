@@ -132,17 +132,17 @@ body {
 				</div>
 				<div class="form-group">
 					<label class="control-label">Role</label>
-					<select class="form-control">
-						<option>学生</option>
-						<option >老师</option>
-						<option >管理者</option>
+					<select class="form-control" name="user.grop.id">
+						<option value="1" name="1">学生</option>
+						<option value="2" name="2">老师</option>
+						<option value="3" name="3">管理者</option>
 					</select>
 				</div>
 				<div class="form-group btn-container">
-					<button class="btn btn-primary btn-block"><i class="fa fa-unlock fa-lg fa-fw"></i>registered</button>
+					<button class="btn btn-primary btn-block" id="regisBtn" type="submit"><i class="fa fa-unlock fa-lg fa-fw"></i>registered</button>
 				</div>
 				<div class="form-group btn-container">
-					<button class="btn btn-primary btn-block"><i class="fa fa-unlock fa-lg fa-fw"></i>reset</button>
+					<button class="btn btn-primary btn-block" id="resetBtn"><i class="fa fa-unlock fa-lg fa-fw"></i>reset</button>
 				</div>
 				<div class="form-group mt-3">
 					<p class="semibold-text mb-0"><a href="#" data-toggle="flip"><i class="fa fa-angle-left fa-fw"></i> Back to Login</a></p>
@@ -372,11 +372,12 @@ body {
 
 	//手机号码
 	var regPhoneNum = /^[0-9]{11}$/
-	$('.regisForm').find('input').eq(4).change(function() {
+	$('.regisForm').find('input').eq(3).change(function() {
 		if (regPhoneNum.test($(this).val())) {
-			success($(this), 4);
+			success($(this), 3);
 		} else {
-			fail($(this), 4, '手机号码只能为11位数字');
+			console.log($(this))
+			fail($(this), 3, '手机号码只能为11位数字');
 		}
 	});
 
@@ -396,8 +397,10 @@ body {
 	// 	}
 	// });
 
-	$('#reset').click(function() {
-		$('input').slice(0, 6).parent().parent().removeClass('has-error has-success');
+	$('#resetBtn').click(function() {
+		$("input").attr("value","");
+		$('input').slice(0, 8).parent().parent().removeClass('has-error has-success');
+		console.log($('input').slice(0, 6))
 		$('.tips').hide();
 		$('.glyphicon-ok').hide();
 		$('.glyphicon-remove').hide();

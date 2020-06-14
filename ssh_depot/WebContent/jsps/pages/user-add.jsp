@@ -335,14 +335,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	});
 
 	// 手机号码
-	// var regPhoneNum = /^[0-9]{11}$/
-	// $('.container').find('input').eq(4).change(function() {
-	// 	if (regPhoneNum.test($(this).val())) {
-	// 		success($(this), 4);
-	// 	} else {
-	// 		fail($(this), 4, '手机号码只能为11位数字');
-	// 	}
-	// });
+	var regPhoneNum = /^[0-9]{11}$/
+	$('.container').find('input').eq(3).change(function() {
+		if (regPhoneNum.test($(this).val())) {
+			success($(this), 4);
+		} else {
+			fail($(this), 4, '手机号码只能为11位数字');
+		}
+	});
 
 
 
