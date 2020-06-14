@@ -8,14 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
-	<!-- Open Graph Meta-->
-	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="Vali Admin">
-	<meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
-	<meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
-	<meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
-	<meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
-	<title>Vali Admin - Free Bootstrap 4 Admin Template</title>
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -76,6 +69,22 @@ ul{
 	font-size: large;
 	color: grey;
 }
+		.app-sidebar{
+			width: 100vw;
+		}
+		.treeview-menu li{
+			/*height: 5vh;*/
+			display: flex;
+			/*background: #0d1214;*/
+		}
+
+.treeview-item{
+	padding: 15px;
+	width: 100%;
+}
+		.app-sidebar{
+			padding-top: 0px;
+		}
 </style>
 <script type="text/JavaScript"> 
 var $=function(id) {
@@ -100,31 +109,31 @@ function show_menu_box(num){
 
 <body>
 <div >
-	<div class="accordion" id="accordionExample">
-		<div class="card">
-			<div class="card-header" id="headingOne">
-				<h2 class="mb-0">
-					<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						<i class="icon fa fa fa-user"></i> 人员管理
-						<i class="fa fa-angle-right" style="color: white;float: right"></i>
-					</button>
-				</h2>
-			</div>
+	<aside class="app-sidebar" >
 
-			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-				<div class="card-body">
+		<ul class="app-menu">
+			<li><a class="treeview-item" href="backtomain.action"  target="rightFrame"><i class="icon fa fa fa-user-md"></i> 回到首页</a></li>
+			<li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">用户管理</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+				<ul class="treeview-menu">
+					<li><a class="treeview-item" href="userList.action"  target="rightFrame"><i class="icon fa fa fa-user-md"></i> &middot用户列表</a></li>
+					<li><a class="treeview-item" href="userAddPage.action"  target="rightFrame"><i class="icon fa fa-user-plus"></i> &middot添加用户</a></li>
+					<li><a class="treeview-item" href="groupList.action" target="rightFrame"><i class="icon fa fa-user-o"></i> &middot用户分组</a></li>
+					<li><a class="treeview-item" href="groupAddPage.action" target="rightFrame"><i class="icon fa fa fa-user"></i> &middot添加分组</a></li>
+					<li><a class="treeview-item" href="userUpdatePage.action?user.id=<s:property value="id"/>&page=${page}"  target="rightFrame">
 
-					<ul class="nav nav-pills nav-stacked">
-						<li><a href="userList.action"  target="rightFrame"><i class="icon fa fa fa-user-md"></i> &middot用户列表</a></li>
-						<li><a href="userAddPage.action"  target="rightFrame"><i class="icon fa fa-user-plus"></i> &middot添加用户</a></li>
-						<li><a href="groupList.action" target="rightFrame"><i class="icon fa fa-user-o"></i> &middot用户分组</a></li>
-						<li><a href="groupAddPage.action" target="rightFrame"><i class="icon fa fa fa-user"></i> &middot添加分组</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+						<i  class="icon fa fa fa-user"></i>修改個人信息</a></li>
+				</ul>
+			</li>
+			<li class="treeview">
+				<a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-hdd-o"></i><span class="app-menu__label">赛事管理</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+				<ul class="treeview-menu">
 
-	</div>
+				</ul>
+			</li>
+
+
+		</ul>
+	</aside>
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
@@ -136,5 +145,15 @@ function show_menu_box(num){
 <script src="js/main.js"></script>
 <!-- The javascript plugin to display page loading on top-->
 <script src="js/plugins/pace.min.js"></script>
+<script type="text/javascript">
+	if(document.location.hostname == 'pratikborsadiya.in') {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-72504830-1', 'auto');
+		ga('send', 'pageview');
+	}
+</script>
 </body>
 </html>

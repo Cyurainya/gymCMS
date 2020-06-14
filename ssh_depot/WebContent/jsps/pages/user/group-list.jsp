@@ -58,7 +58,7 @@ a:active {
 <body>
 <div class="panel panel-default" >
 	<!-- Default panel contents -->
-	<div class="panel-heading">类型列表</div>
+	<div class="panel-heading">組类型列表</div>
 
 	<!-- Table -->
 	<table class="table table table-striped" >

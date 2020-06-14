@@ -25,7 +25,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 			名称：<input type="text" name="group.name" required="required"/>
 
-			<button type="submit" class="btn btn-default">添加</button><s:actionerror/>
+			<button type="submit" class="btn btn-default">添加我</button><s:actionerror/>
 
 		</form>
 	</div>

@@ -11,7 +11,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<link rel="stylesheet" href="../../css/register.css">
+	<link rel="stylesheet" href="Desktop/gymCMS/gymCMS/ssh_depot/WebContent/css/register.css">
 
 
 </head>
@@ -107,7 +107,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 	</div>
 </div>
-<script src="../../js/registerValid.js"></script>
+<script src="Desktop/gymCMS/gymCMS/ssh_depot/WebContent/js/registerValid.js"></script>
 <script type="text/javascript">
 	$(document).ready(function () {
 		$('input').slice(0, 6).parent().parent().removeClass('has-error has-success');

@@ -96,14 +96,17 @@ body {
             </td>
 
                     <td >
-<%--                        <a href="userUpdatePage.action?user.id=+'#session.user.id'" target="rightFrame">--%>
+                        <a href="userUpdatePage.action?user.id=<s:property value="id"/>&page=${page}" target="rightFrame">
                             <div class="userBox" id="userBox" >
                                 <i class="fa fa-user userLogo" >
                                 </i>
                                 <span class="userName">
+
                                     <s:property value="#session.user.username"></s:property>
                                </span>
                             </div>
+                        </a>
+
 <%--                        </a>--%>
 
 				</span>

@@ -18,9 +18,10 @@ import com.util.PageUtil;
 @Results({
 	@Result(name="login",location="/login.jsp"),
 	@Result(name="main",location="/jsps/main.jsp"),
-	@Result(name="list",location="/jsps/pages/user-list.jsp"),
-	@Result(name="add",location="/jsps/pages/user-add.jsp"),
-	@Result(name="update",location="/jsps/pages/user-update.jsp"),
+		@Result(name="back",location="/jsps/right.jsp"),
+	@Result(name="list",location="/jsps/pages/user/user-list.jsp"),
+	@Result(name="add",location="/jsps/pages/user/user-add.jsp"),
+	@Result(name="update",location="/jsps/pages/user/user-update.jsp"),
 	@Result(name="relist",type="redirect",location="userList.action?page=${page}"),
 })
 public class UserAction  extends BaseAction{
@@ -48,7 +49,14 @@ public class UserAction  extends BaseAction{
 		}
 		return "main";
 	}
-	
+
+	//回到首页
+	@Action("backtomain")
+	public String backtomain(){
+
+		return "back";
+	}
+
 	//获取列表
 	@Action("userList")
 	public String list(){
@@ -78,15 +86,19 @@ public class UserAction  extends BaseAction{
 
 	//注册
 	@Action("userRegis")
-	public String register(){
+	public String userRegis(){
 		if (userService.getUser(user.getUsername()) == null) {
 			userService.add(user);
-			return "relist";
+			ActionContext.getContext().getSession().put("user", user);
+
+			return "main";
 		} else {
 			addActionError("用户名已存在");
 			return addPage();
 		}
+
 	}
+
 	//更新页面
 	@Action("userUpdatePage")
 	public String updatePage(){

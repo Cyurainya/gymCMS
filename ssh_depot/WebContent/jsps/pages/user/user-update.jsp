@@ -5,13 +5,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!DOCTYPE html>
 <html>
 <head>
-<base href="<%=basePath %>"/>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<base href="<%=basePath %>"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<link rel="stylesheet" href="../../css/register.css">
+	<link rel="stylesheet" href="Desktop/gymCMS/gymCMS/ssh_depot/WebContent/css/register.css">
 
 
 </head>
@@ -36,13 +36,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="container">
 
 	<div class="formDiv">
-		<form action="userAdd.action" method="post" role="form">
-
+		<form action="userUpdate.action" method="post" role="form">
+				<input type="hidden" name="page" value="${param.page}"/>
+				<input type="hidden" name="user.id" value="${user.id}"/>
+				<input type="hidden" name="user.username" value="${user.username}"/>
 			<div class="form-group has-feedback">
-				<label for="username">用户名</label>
+				<label for="username">姓名</label>
 				<div class="input-group">
 					<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-					<input id="username" class="form-control" placeholder="用户名不得少于五个字符" maxlength="20" type="text" name="user.username" required="required">
+					<input id="username" class="form-control" placeholder="用户名不得少于五个字符" maxlength="20" type="text" name="user.username" required="required" value="${user.username}">
 				</div>
 
 				<span style="color:red;display: none;" class="tips"></span>
@@ -55,7 +57,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<label for="password">密码</label>
 				<div class="input-group">
 					<span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-					<input id="password" class="form-control" placeholder="密码不得少于八个字符且至少包含字母、数字、特殊字符的两种" maxlength="20" type="password">
+					<input id="password" value="${user.password}" class="form-control" placeholder="密码不得少于八个字符且至少包含字母、数字、特殊字符的两种" maxlength="20" type="password">
 				</div>
 
 				<span style="color:red;display: none;" class="tips"></span>
@@ -77,7 +79,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<label for="phoneNum">手机号码</label>
 				<div class="input-group">
 					<span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></span>
-					<input id="phoneNum" name="user.phone" required="required" class="form-control" placeholder="请输入手机号码" maxlength="11" type="text">
+					<input id="phoneNum" name="user.phone" required="required" class="form-control" placeholder="请输入手机号码" maxlength="11" type="text" value="${user.phone}">
 				</div>
 				<span style="color:red;display: none;" class="tips"></span>
 				<span style="display: none;" class="glyphicon glyphicon-remove form-control-feedback"></span>
@@ -86,16 +88,21 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 			<div class="form-group has-feedback">
 				<label >角色</label>
-				<select name="user.grop.id" class="selectBox">
-				<s:iterator value="groupList">
-					<option value='<s:property value="id"/>'><s:property value="name"/></option>
-				</s:iterator>
+					<select name="user.grop.id" >
+					<s:iterator value="groupList">
+						<s:if test='id == user.grop.id'>
+							<option value="<s:property value='id'/>" selected><s:property value="name"/></option>
+						</s:if>
+						<s:else>
+							<option value="<s:property value='id'/>"><s:property value="name"/></option>
+						</s:else>
+					</s:iterator>
 				</select>
 
 			</div>
 
 			<div class="form-group">
-				<input class="form-control btn btn-primary" id="submit" value="注&nbsp;&nbsp;册" type="submit">
+				<input class="form-control btn btn-primary" id="submit" value="確認修改" type="submit">
 			</div>
 
 			<div class="form-group">
@@ -103,25 +110,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 		</form>
 	</div>
-			<%--	<form action="userAdd.action" method="post" role="form">--%>
-			<%--		<div class="form-group">--%>
-			<%--		用户：<input type="text" name="user.username" required="required"/><br>--%>
-			<%--		密码：<input type="text" name="user.password" required="required"/><br>--%>
-			<%--		类型：<select name="user.grop.id" style="width:149px;">--%>
-			<%--		<s:iterator value="groupList">--%>
-			<%--			<option value='<s:property value="id"/>'><s:property value="name"/></option>--%>
-			<%--		</s:iterator>--%>
-			<%--		</select>--%>
-
-			<%--		<input type="submit" value="添加"/><s:actionerror/>--%>
-			<%--</div>--%>
 
 
-			<%--	</form>--%>
-
-	</div>
 </div>
-<script src="../../js/registerValid.js"></script>
+</div>
+<script src="Desktop/gymCMS/gymCMS/ssh_depot/WebContent/js/registerValid.js"></script>
 <script type="text/javascript">
 	$(document).ready(function () {
 		$('input').slice(0, 6).parent().parent().removeClass('has-error has-success');
@@ -368,6 +361,27 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		check = [false, false, false, false, false, false, ];
 	});
 </script>
-	
+
 </body>
 </html>
+<%--<form action="userUpdate.action" method="post" role="form">--%>
+<%--	<input type="hidden" name="page" value="${param.page}"/>--%>
+<%--	<input type="hidden" name="user.id" value="${user.id}"/>--%>
+<%--	<input type="hidden" name="user.username" value="${user.username}"/>--%>
+
+<%--	用户：${user.username}<br>--%>
+<%--	密码：<input type="text" name="user.password" value="${user.password}" required="required"/><br>--%>
+<%--	类型：<select name="user.grop.id" style="width:149px;">--%>
+<%--	<s:iterator value="groupList">--%>
+<%--		<s:if test='id == user.grop.id'>--%>
+<%--			<option value="<s:property value='id'/>" selected><s:property value="name"/></option>--%>
+<%--		</s:if>--%>
+<%--		<s:else>--%>
+<%--			<option value="<s:property value='id'/>"><s:property value="name"/></option>--%>
+<%--		</s:else>--%>
+<%--	</s:iterator>--%>
+<%--</select>--%>
+
+<%--	<input type="submit" value="修改"/><s:actionerror/>--%>
+
+<%--</form>--%>

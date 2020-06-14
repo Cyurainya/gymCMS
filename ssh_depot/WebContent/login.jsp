@@ -3,7 +3,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -87,7 +90,7 @@ body {
 				</div>
 			</form>
 
-			<form class="forget-form regisForm" action="userAdd.action" method="post" role="form">
+			<form class="forget-form regisForm" action="userRegis.action" method="post" role="form">
 				<h3 class="login-head"><i class="fa fa-lg fa-fw fa-lock"></i>registered</h3>
 				<div class="form-group">
 					<div class="input-group">
@@ -151,7 +154,7 @@ body {
 		</div>
 	</section>
 </div>
-\
+
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
