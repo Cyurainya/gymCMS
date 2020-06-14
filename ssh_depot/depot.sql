@@ -77,8 +77,8 @@ CREATE TABLE `grop` (
 -- ----------------------------
 -- Records of grop
 -- ----------------------------
-INSERT INTO `grop` VALUES ('1', '经理');
-INSERT INTO `grop` VALUES ('2', '员工');
+INSERT INTO `grop` VALUES ('1', '学生');
+INSERT INTO `grop` VALUES ('2', '老师');
 
 -- ----------------------------
 -- Table structure for `sell`
@@ -153,7 +153,7 @@ CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
-
+  `phone` varchar(11) DEFAULT NULL,
   `grop_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;

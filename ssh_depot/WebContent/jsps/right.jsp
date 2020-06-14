@@ -8,6 +8,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-欢迎登录仓库管理
+欢迎登录体育馆管理
 </body>
 </html>

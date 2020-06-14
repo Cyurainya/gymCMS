@@ -25,9 +25,13 @@
   <!-- Font-icon css-->
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <title>仓库管理系统</title>
 =======
 <title>体育馆管理系统</title>
+>>>>>>> siran
+=======
+<title>体育馆管理系统~</title>
 >>>>>>> siran
 </head>
 <frameset rows="52,*,23" frameborder="no" border="0" framespacing="0">

@@ -3,7 +3,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -124,7 +127,7 @@ body {
 					<button class="btn btn-primary btn-block"><i class="fa fa-unlock fa-lg fa-fw"></i>registered</button>
 =======
 
-			<form class="forget-form regisForm" action="userAdd.action" method="post" role="form">
+			<form class="forget-form regisForm" action="userRegis.action" method="post" role="form">
 				<h3 class="login-head"><i class="fa fa-lg fa-fw fa-lock"></i>registered</h3>
 				<div class="form-group">
 					<div class="input-group">
@@ -190,6 +193,7 @@ body {
 	</section>
 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <%--<div style="display: none">--%>
 <%--	<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">--%>
 <%--		<tr><td bgcolor="#e5f6cf">&nbsp;</td></tr>--%>
@@ -248,6 +252,9 @@ body {
 
 =======
 \
+>>>>>>> siran
+=======
+
 >>>>>>> siran
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
