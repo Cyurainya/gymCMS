@@ -7,41 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c78f37b9-f83b-4e83-a198-6b7f11e01b1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/race/race-anounce.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/race/race-detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/race/race-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/race/referee-brief.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/race/referee-detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/user/user-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/user/user-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/action/UserAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/group-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/group-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/group-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/group-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/group-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/group-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/user-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/user-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/user-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/user-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/user-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gymCMS/com/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gymCMS/com/action/UserAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gymCMS/com/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gymCMS/com/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/group-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/user/group-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/group-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/user/group-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/group-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/user/group-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/user-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/user/user-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/user-list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/user-update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/right.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/right.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/WebContent/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh_depot/depot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/depot.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/src/com/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/src/com/action/UserAction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,20 +42,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="depot: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="depot@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="depot: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="grop: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="depot@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="depot: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -96,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -265,7 +219,7 @@
       <workItem from="1591961980060" duration="1375000" />
       <workItem from="1592103568460" duration="769000" />
       <workItem from="1592104933842" duration="274000" />
-      <workItem from="1592105310294" duration="15605000" />
+      <workItem from="1592105310294" duration="16585000" />
     </task>
     <servers />
   </component>
@@ -288,54 +242,54 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="548" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1592104332518" />
-    <state width="943" height="219" key="GridCell.Tab.0.bottom" timestamp="1592124335269">
+    <state width="1235" height="219" key="GridCell.Tab.0.bottom" timestamp="1592126934529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592124335269" />
-    <state width="943" height="219" key="GridCell.Tab.0.center" timestamp="1592124335269">
+    <state width="1235" height="219" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592126934529" />
+    <state width="1235" height="219" key="GridCell.Tab.0.center" timestamp="1592126934528">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1592124335269" />
-    <state width="943" height="219" key="GridCell.Tab.0.left" timestamp="1592124335269">
+    <state width="1235" height="219" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1592126934528" />
+    <state width="1235" height="219" key="GridCell.Tab.0.left" timestamp="1592126934528">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1592124335269" />
-    <state width="943" height="219" key="GridCell.Tab.0.right" timestamp="1592124335269">
+    <state width="1235" height="219" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1592126934528" />
+    <state width="1235" height="219" key="GridCell.Tab.0.right" timestamp="1592126934529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1592124335269" />
-    <state width="943" height="219" key="GridCell.Tab.1.bottom" timestamp="1592124335270">
+    <state width="1235" height="219" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1592126934529" />
+    <state width="1235" height="219" key="GridCell.Tab.1.bottom" timestamp="1592126934529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592124335270" />
-    <state width="943" height="219" key="GridCell.Tab.1.center" timestamp="1592124335270">
+    <state width="1235" height="219" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592126934529" />
+    <state width="1235" height="219" key="GridCell.Tab.1.center" timestamp="1592126934529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1592124335270" />
-    <state width="943" height="219" key="GridCell.Tab.1.left" timestamp="1592124335270">
+    <state width="1235" height="219" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1592126934529" />
+    <state width="1235" height="219" key="GridCell.Tab.1.left" timestamp="1592126934529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1592124335270" />
-    <state width="943" height="219" key="GridCell.Tab.1.right" timestamp="1592124335270">
+    <state width="1235" height="219" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1592126934529" />
+    <state width="1235" height="219" key="GridCell.Tab.1.right" timestamp="1592126934529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1592124335270" />
-    <state width="943" height="219" key="GridCell.Tab.2.bottom" timestamp="1592124335270">
+    <state width="1235" height="219" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1592126934529" />
+    <state width="1235" height="219" key="GridCell.Tab.2.bottom" timestamp="1592126934529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592124335270" />
-    <state width="943" height="219" key="GridCell.Tab.2.center" timestamp="1592124335270">
+    <state width="1235" height="219" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592126934529" />
+    <state width="1235" height="219" key="GridCell.Tab.2.center" timestamp="1592126934529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1592124335270" />
-    <state width="943" height="219" key="GridCell.Tab.2.left" timestamp="1592124335270">
+    <state width="1235" height="219" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1592126934529" />
+    <state width="1235" height="219" key="GridCell.Tab.2.left" timestamp="1592126934529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1592124335270" />
-    <state width="943" height="219" key="GridCell.Tab.2.right" timestamp="1592124335270">
+    <state width="1235" height="219" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1592126934529" />
+    <state width="1235" height="219" key="GridCell.Tab.2.right" timestamp="1592126934529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="943" height="219" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1592124335270" />
+    <state width="1235" height="219" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1592126934529" />
     <state width="1024" height="82" key="GridCell.Tab.3.bottom" timestamp="1591945390757">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -356,10 +310,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="119" y="71" width="996" height="718" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1591945555817" />
-    <state x="478" y="57" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1592124346294">
+    <state x="478" y="57" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1592126875130">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="478" y="57" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1592124346294" />
+    <state x="478" y="57" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1592126875130" />
     <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1592105315972">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

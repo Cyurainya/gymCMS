@@ -77,8 +77,8 @@ CREATE TABLE `grop` (
 -- ----------------------------
 -- Records of grop
 -- ----------------------------
-INSERT INTO `grop` VALUES ('1', '经理');
-INSERT INTO `grop` VALUES ('2', '员工');
+INSERT INTO `grop` VALUES ('1', '学生');
+INSERT INTO `grop` VALUES ('2', '老师');
 
 -- ----------------------------
 -- Table structure for `sell`

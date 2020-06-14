@@ -82,6 +82,9 @@ ul{
 	padding: 15px;
 	width: 100%;
 }
+		.app-sidebar{
+			padding-top: 0px;
+		}
 </style>
 <script type="text/JavaScript"> 
 var $=function(id) {
@@ -106,7 +109,7 @@ function show_menu_box(num){
 
 <body>
 <div >
-	<aside class="app-sidebar">
+	<aside class="app-sidebar" >
 
 		<ul class="app-menu">
 			<li><a class="treeview-item" href="backtomain.action"  target="rightFrame"><i class="icon fa fa fa-user-md"></i> 回到首页</a></li>
@@ -117,42 +120,20 @@ function show_menu_box(num){
 					<li><a class="treeview-item" href="groupList.action" target="rightFrame"><i class="icon fa fa-user-o"></i> &middot用户分组</a></li>
 					<li><a class="treeview-item" href="groupAddPage.action" target="rightFrame"><i class="icon fa fa fa-user"></i> &middot添加分组</a></li>
 					<li><a class="treeview-item" href="userUpdatePage.action?user.id=<s:property value="id"/>&page=${page}"  target="rightFrame">
+
 						<i  class="icon fa fa fa-user"></i>修改個人信息</a></li>
+				</ul>
+			</li>
+			<li class="treeview">
+				<a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-hdd-o"></i><span class="app-menu__label">赛事管理</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+				<ul class="treeview-menu">
+
 				</ul>
 			</li>
 
 
-
 		</ul>
 	</aside>
-<%--	<div class="accordion" id="accordionExample">--%>
-<%--		<div class="card">--%>
-<%--			<div class="card-header" id="headingOne">--%>
-<%--				<h2 class="mb-0">--%>
-<%--					<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">--%>
-<%--						<i class="icon fa fa fa-user"></i> 人员管理--%>
-<%--						<i class="fa fa-angle-right" style="color: white;float: right"></i>--%>
-<%--					</button>--%>
-<%--				</h2>--%>
-<%--			</div>--%>
-
-<%--			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">--%>
-<%--				<div class="card-body">--%>
-
-<%--					<ul class="nav nav-pills nav-stacked">--%>
-<%--						<li><a href="userList.action"  target="rightFrame"><i class="icon fa fa fa-user-md"></i> &middot用户列表</a></li>--%>
-<%--						<li><a href="userAddPage.action"  target="rightFrame"><i class="icon fa fa-user-plus"></i> &middot添加用户</a></li>--%>
-<%--						<li><a href="groupList.action" target="rightFrame"><i class="icon fa fa-user-o"></i> &middot用户分组</a></li>--%>
-<%--						<li><a href="groupAddPage.action" target="rightFrame"><i class="icon fa fa fa-user"></i> &middot添加分组</a></li>--%>
-<%--						<li><a href="userUpdatePage.action?user.id=<s:property value="id"/>&page=${page}"  target="rightFrame">--%>
-<%--							<i class="icon fa fa fa-user"></i>修改個人信息</a></li>--%>
-
-<%--					</ul>--%>
-<%--				</div>--%>
-<%--			</div>--%>
-<%--		</div>--%>
-
-<%--	</div>--%>
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
