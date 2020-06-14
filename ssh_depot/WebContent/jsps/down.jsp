@@ -22,7 +22,7 @@ body {
 </style></head>
 
 <body>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+/* <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td height="23" background="images/main_25.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
@@ -32,6 +32,6 @@ body {
       </tr>
     </table></td>
   </tr>
-</table>
+</table> */
 </body>
 </html>

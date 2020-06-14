@@ -7,15 +7,11 @@
 <base href="<%=basePath %>"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-<<<<<<< HEAD
-<style type="text/css">
-=======
 	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<style type="text/css">
->>>>>>> siran
 html, body, iframe{
 	width: 100%;
 	height: 100vh;

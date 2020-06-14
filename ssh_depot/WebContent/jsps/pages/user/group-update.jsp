@@ -16,7 +16,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		
 		組名：<input type="text" name="group.name" value="${group.name}" required="required"/>
 		
-		<input type="submit" value="修改"/><s:actionerror/>
+		<input type="submit" value="修改"/>
 		
 	</form>
 	

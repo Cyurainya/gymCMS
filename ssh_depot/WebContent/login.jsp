@@ -10,13 +10,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
-=======
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
->>>>>>> siran
 	<!-- Main CSS-->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!-- Font-icon css-->
@@ -24,7 +21,6 @@
 
 	<title>登录体育馆系统</title>
 <style type="text/css">
-
 body {
 	margin-left: 0px;
 	margin-top: 0px;
@@ -41,17 +37,11 @@ body {
 	font-size: 12px;
 }
 .login-content .login-box.flipped {
-<<<<<<< HEAD
-	min-height: 600px;
-=======
 	min-height: 700px;
->>>>>>> siran
 }
 .login-content .login-box{
 	min-height:600px;
 }
-<<<<<<< HEAD
-=======
 	.input-group>.form-control{
 		width: 100%;
 	}
@@ -64,7 +54,6 @@ body {
 .login-content .login-box .btn-container{
 	margin-bottom: 10px;
 }
->>>>>>> siran
 </style>
 
 </head>
@@ -99,33 +88,6 @@ body {
 					<button class="btn btn-primary btn-block" id="loginBtn"><i class="fa fa-sign-in fa-lg fa-fw"></i>SIGN IN</button>
 				</div>
 			</form>
-<<<<<<< HEAD
-			<form class="forget-form" >
-				<h3 class="login-head"><i class="fa fa-lg fa-fw fa-lock"></i>registered</h3>
-				<div class="form-group">
-					<label class="control-label">Name</label>
-					<input class="form-control" type="text" >
-				</div>
-				<div class="form-group">
-					<label class="control-label">Phone</label>
-					<input class="form-control" type="text" >
-				</div>
-
-				<div class="form-group">
-					<label class="control-label">PassWord</label>
-					<input class="form-control" type="text" >
-				</div>
-				<div class="form-group">
-					<label class="control-label">Role</label>
-					<select class="form-control">
-						<option >Student</option>
-						<option >Manager</option>
-
-					</select>
-				</div>
-				<div class="form-group btn-container">
-					<button class="btn btn-primary btn-block"><i class="fa fa-unlock fa-lg fa-fw"></i>registered</button>
-=======
 
 			<form class="forget-form regisForm" action="userRegis.action" method="post" role="form">
 				<h3 class="login-head"><i class="fa fa-lg fa-fw fa-lock"></i>registered</h3>
@@ -183,7 +145,6 @@ body {
 				</div>
 				<div class="form-group btn-container">
 					<button class="btn btn-primary btn-block" id="resetBtn"><i class="fa fa-unlock fa-lg fa-fw"></i>reset</button>
->>>>>>> siran
 				</div>
 				<div class="form-group mt-3">
 					<p class="semibold-text mb-0"><a href="#" data-toggle="flip"><i class="fa fa-angle-left fa-fw"></i> Back to Login</a></p>
@@ -192,70 +153,7 @@ body {
 		</div>
 	</section>
 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<%--<div style="display: none">--%>
-<%--	<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">--%>
-<%--		<tr><td bgcolor="#e5f6cf">&nbsp;</td></tr>--%>
-<%--		<tr>--%>
-<%--			<td height="608" background="images/login_03.gif">--%>
-<%--				<table width="862" border="0" align="center" cellpadding="0" cellspacing="0">--%>
-<%--					<tr><td height="266" background="images/login_04.gif">&nbsp;</td></tr>--%>
-<%--					<tr><td height="95">--%>
-<%--						<table width="100%" border="0" cellspacing="0" cellpadding="0">--%>
-<%--							<tr>--%>
-<%--								<td width="424" height="95" background="images/login_06.gif">&nbsp;</td>--%>
-<%--								<td width="183" background="images/login_07.gif">--%>
-<%--									<div align="center" style="color: yellow;font-size: 20px">仓库管理系统</div>--%>
 
-<%--									<form action="userLogin.action" method="post" id="form_login">--%>
-<%--										<table width="100%" border="0" cellspacing="0" cellpadding="0">--%>
-<%--											<tr>--%>
-<%--												<td width="21%" height="30"><div align="center"><span class="STYLE3">用户</span></div></td>--%>
-<%--												<td width="79%" height="30"><input type="text" name="user.username" value="1" style="height: 18px; width: 130px; border: solid 1px #cadcb2; font-size: 12px; color: #81b432;"></td>--%>
-<%--											</tr>--%>
-<%--											<tr>--%>
-<%--												<td height="30"><div align="center"><span class="STYLE3">密码</span></div></td>--%>
-<%--												<td height="30"><input type="password" name="user.password" value="1" style="height: 18px; width: 130px; border: solid 1px #cadcb2; font-size: 12px; color: #81b432;"></td>--%>
-<%--											</tr>--%>
-<%--											<tr>--%>
-<%--												<td height="30">&nbsp;</td>--%>
-<%--												<td height="30"><img src="images/dl.gif" width="81" height="22" border="0" usemap="#Map"></td>--%>
-<%--											</tr>--%>
-<%--										</table>--%>
-<%--									</form>--%>
-
-
-<%--								</td>--%>
-<%--								<td width="255" background="images/login_08.gif">&nbsp;</td>--%>
-<%--							</tr>--%>
-<%--						</table></td>--%>
-<%--					</tr>--%>
-<%--					<tr><td height="247" valign="top" background="images/login_09.gif">--%>
-<%--						<table width="100%" border="0" cellspacing="0" cellpadding="0">--%>
-<%--							<tr><td width="22%" height="30">&nbsp;</td>--%>
-<%--								<td width="30%">&nbsp;</td>--%>
-<%--								<td width="26%"><font color="red" size="2"><s:actionerror/></font></td>--%>
-<%--								<td width="22%">&nbsp;</td>--%>
-<%--							</tr></table></td></tr>--%>
-<%--				</table></td>--%>
-<%--		</tr>--%>
-<%--		<tr><td bgcolor="#a2d962">&nbsp;</td></tr>--%>
-<%--	</table>--%>
-<%--	<map name="Map">--%>
-<%--		<area shape="rect" coords="3,3,36,19" href="javascript:document.getElementById('form_login').submit();">--%>
-<%--		<area shape="rect" coords="40,3,78,18" href="javascript:document.getElementById('form_login').reset();">--%>
-<%--	</map>--%>
-<%--</div>--%>
-
-
-
-=======
-\
->>>>>>> siran
-=======
-
->>>>>>> siran
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -263,8 +161,6 @@ body {
 <!-- The javascript plugin to display page loading on top-->
 <script src="js/plugins/pace.min.js"></script>
 <script type="text/javascript">
-<<<<<<< HEAD
-=======
 	$(document).ready(function () {
 		$('input').slice(0, 6).parent().parent().removeClass('has-error has-success');
 		$('.tips').hide();
@@ -281,7 +177,6 @@ body {
 		codeTip: '换个验证码?',
 		inputID: 'idcode-btn' //验证元素的ID
 	};
-
 	var _set = {
 		storeLable: 'codeval',
 		store: '#ehong-code-input',
@@ -295,14 +190,12 @@ body {
 		setCode: function(option) {
 			_commSetting(option);
 			_setCodeStyle("#" + settings.e, settings.codeType.name, settings.codeType.len);
-
 		},
 		validateCode: function(option) {
 			_commSetting(option);
 			var inputV;
 			if (settings.inputID) {
 				inputV = $('#' + settings.inputID).val();
-
 			} else {
 				inputV = $(_set.store).val();
 			}
@@ -314,11 +207,9 @@ body {
 			}
 		}
 	};
-
 	function _commSetting(option) {
 		$.extend(settings, option);
 	}
-
 	function _storeData(dataLabel, data) {
 		var store = $(_set.codeval).get(0);
 		if (data) {
@@ -327,7 +218,6 @@ body {
 			return $.data(store, dataLabel);
 		}
 	}
-
 	function _setCodeStyle(eid, codeType, codeLength) {
 		var codeObj = _createCode(settings.codeType.name, settings.codeType.len);
 		var randNum = Math.floor(Math.random() * 6);
@@ -341,7 +231,6 @@ body {
 		$(eid).html(htmlCode);
 		_storeData(_set.storeLable, codeObj);
 	}
-
 	function _setStyle(codeObj) {
 		var fnCodeObj = new Array();
 		var col = new Array('#BF0C43', '#E69A2A', '#707F02', '#18975F', '#BC3087', '#73C841', '#780320', '#90719B', '#1F72D8', '#D6A03C', '#6B486E', '#243F5F', '#16BDB5');
@@ -352,7 +241,6 @@ body {
 		}
 		return fnCodeObj.join('');
 	}
-
 	function _createCode(codeType, codeLength) {
 		var codeObj;
 		if (codeType == 'follow') {
@@ -364,7 +252,6 @@ body {
 		}
 		return codeObj;
 	}
-
 	function _createCodeCalc(codeLength) {
 		var code1, code2, codeResult;
 		var selectChar = new Array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
@@ -372,17 +259,14 @@ body {
 		for (var i = 0; i < codeLength; i++) {
 			charIndex = Math.floor(Math.random() * selectChar.length);
 			code1 += selectChar[charIndex];
-
 			charIndex = Math.floor(Math.random() * selectChar.length);
 			code2 += selectChar[charIndex];
 		}
 		return [parseInt(code1), parseInt(code2), parseInt(code1) + parseInt(code2)];
 	}
-
 	function _createCodeFollow(codeLength) {
 		var code = "";
 		var selectChar = new Array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
-
 		for (var i = 0; i < codeLength; i++) {
 			var charIndex = Math.floor(Math.random() * selectChar.length);
 			if (charIndex % 2 == 0) {
@@ -399,7 +283,6 @@ body {
 	var regPasswordNum = /[0-9]/;
 	var password;
 	var check = [false, false, false, false, false, false];
-
 	//校验成功函数
 	function success(Obj, counter) {
 		Obj.parent().parent().removeClass('has-error').addClass('has-success');
@@ -407,9 +290,7 @@ body {
 		$('.glyphicon-ok').eq(counter).show();
 		$('.glyphicon-remove').eq(counter).hide();
 		check[counter] = true;
-
 	}
-
 	// 校验失败函数
 	function fail(Obj, counter, msg) {
 		Obj.parent().parent().removeClass('has-success').addClass('has-error');
@@ -418,11 +299,8 @@ body {
 		$('.tips').eq(counter).text(msg).show();
 		check[counter] = false;
 	}
-
 	// 用户名匹配
 	$('.regisForm').find('input').eq(0).change(function() {
-
-
 		if (regUsername.test($(this).val())) {
 			success($(this), 0);
 		} else if ($(this).val().length < 5) {
@@ -430,31 +308,20 @@ body {
 		} else {
 			fail($(this), 0, '用户名只能为英文数字和下划线,且不能以数字开头')
 		}
-
 	});
-
-
-
 	// 密码匹配
-
 	// 匹配字母、数字、特殊字符至少两种的函数
 	function atLeastTwo(password) {
 		var a = regPasswordSpecial.test(password) ? 1 : 0;
 		var b = regPasswordAlpha.test(password) ? 1 : 0;
 		var c = regPasswordNum.test(password) ? 1 : 0;
 		return a + b + c;
-
 	}
-
 	$('.regisForm').find('input').eq(1).change(function() {
-
 		password = $(this).val();
-
 		if ($(this).val().length < 8) {
 			fail($(this), 1, '密码太短，不能少于8个字符');
 		} else {
-
-
 			if (atLeastTwo($(this).val()) < 2) {
 				fail($(this), 1, '密码中至少包含字母、数字、特殊字符的两种')
 			} else {
@@ -462,20 +329,14 @@ body {
 			}
 		}
 	});
-
-
 	// 再次输入密码校验
 	$('.regisForm').find('input').eq(2).change(function() {
-
 		if ($(this).val() == password) {
 			success($(this), 2);
 		} else {
-
 			fail($(this), 2, '两次输入的密码不一致');
 		}
-
 	});
-
 	//手机号码
 	var regPhoneNum = /^[0-9]{11}$/
 	$('.regisForm').find('input').eq(3).change(function() {
@@ -486,9 +347,6 @@ body {
 			fail($(this), 3, '手机号码只能为11位数字');
 		}
 	});
-
-
-
 	//
 	// $('#submit').click(function(e) {
 	// 	if (!check.every(function(value) {
@@ -502,7 +360,6 @@ body {
 	// 		}
 	// 	}
 	// });
-
 	$('#resetBtn').click(function() {
 		$("input").attr("value","");
 		$('input').slice(0, 8).parent().parent().removeClass('has-error has-success');
@@ -515,7 +372,6 @@ body {
 </script>
 
 <script type="text/javascript">
->>>>>>> siran
 	// Login Page Flipbox control
 	$('.login-content [data-toggle="flip"]').click(function() {
 		$('.login-box').toggleClass('flipped');

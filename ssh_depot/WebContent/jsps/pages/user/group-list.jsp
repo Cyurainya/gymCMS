@@ -24,12 +24,10 @@ body {
 	color: #1F4A65;
 	font-weight: bold;
 }
-
 a:link {
 	font-size: 12px;
 	color: #06482a;
 	text-decoration: none;
-
 }
 a:visited {
 	font-size: 12px;
@@ -54,44 +52,35 @@ a:active {
 -->
 </style>
 </head>
-
 <body>
 <div class="panel panel-default" >
 	<!-- Default panel contents -->
 	<div class="panel-heading">組类型列表</div>
-
 	<!-- Table -->
 	<table class="table table table-striped" >
 		<tr>
 			<th>
 				<div align="center">名称</div></th>
-
 			<th>
 				<div align="center">修改</div></th>
 			<th>
 				<div align="center" >删除</div></th>
 		</tr>
 		<s:iterator value="groupList">
-
 			<tr>
 				<td>
 					<div align="center" ><s:property value="name"/></div></td>
-
 				<td height="20" >
 					<div align="center">
-
 					<span > [</span><a href="groupUpdatePage.action?group.id=<s:property value="id"/>&page=${page}">修改</a>
 						<span >]</span></div></td>
 				<td ><div align="center">
-
 					<span >[</span><a href="groupDelete.action?group.id=<s:property value="id"/>&page=${page}">删除</a>
 					<span >]</span></div></td>
 			</tr>
-
 		</s:iterator>
 		<tr>
 			<td>
-
 			</td>
 			<td>
 				<a href="groupAddPage.action">
@@ -102,7 +91,6 @@ a:active {
 		</tr>
 	</table>
 </div>
-
 <%--<table width="90%" border="0" align="left" cellpadding="0" cellspacing="0">--%>
 <%--  <tr>--%>
 <%--    <td height="30">--%>
@@ -171,6 +159,5 @@ a:active {
 <%--	</td>--%>
 <%--  </tr>--%>
 <%--</table>--%>
-
 </body>
 </html>
