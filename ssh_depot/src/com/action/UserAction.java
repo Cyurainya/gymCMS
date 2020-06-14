@@ -74,8 +74,19 @@ public class UserAction  extends BaseAction{
 			addActionError("用户名已存在");
 			return addPage();
 		}
-	}	
-	
+	}
+
+	//注册
+	@Action("userRegis")
+	public String register(){
+		if (userService.getUser(user.getUsername()) == null) {
+			userService.add(user);
+			return "relist";
+		} else {
+			addActionError("用户名已存在");
+			return addPage();
+		}
+	}
 	//更新页面
 	@Action("userUpdatePage")
 	public String updatePage(){

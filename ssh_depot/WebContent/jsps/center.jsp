@@ -7,7 +7,15 @@
 <base href="<%=basePath %>"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<<<<<<< HEAD
 <style type="text/css">
+=======
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+>>>>>>> siran
 html, body, iframe{
 	width: 100%;
 	height: 100vh;
@@ -26,12 +34,20 @@ html, body, iframe{
 
 <body>
 <div class="row" style="height: 100vh">
+<<<<<<< HEAD
 	<div class="col-md-2">
+=======
+	<div class="col-md-2" style="padding: 0">
+>>>>>>> siran
 		<iframe src="jsps/left.jsp" name="leftFrame" id="frame_left"  width="180" frameborder="0" scrolling="no">
 		浏览器不支持嵌入式框架，或被配置为不显示嵌入式框架。
 		</iframe>
 	</div>
+<<<<<<< HEAD
 	<div class="col-md-10"><iframe src="jsps/right.jsp" name="rightFrame" id="frame_right" width="100%" frameborder="0">
+=======
+	<div class="col-md-10" style="background: rgb(229,229,229);padding: 0"><iframe src="jsps/right.jsp" name="rightFrame" id="frame_right" width="100%" frameborder="0">
+>>>>>>> siran
 		浏览器不支持嵌入式框架，或被配置为不显示嵌入式框架。</iframe></div>
 </div>
 <%--	<table width="100%" height="100%" border="0" cellpadding="0"--%>

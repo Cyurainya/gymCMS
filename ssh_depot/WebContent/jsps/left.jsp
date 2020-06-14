@@ -28,7 +28,8 @@
 	<style type="text/css">
 html, body{
 	width: 100%;
-	height: 100%;
+	height: 100vh;
+	background: rgb(42,56,62);
 	margin: 0px 0px;
 	overflow: hidden;
 }
@@ -104,7 +105,12 @@ function show_menu_box(num){
 			<div class="card-header" id="headingOne">
 				<h2 class="mb-0">
 					<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+<<<<<<< HEAD
 						<i class="icon fa fa fa-user"></i> 用户列表
+=======
+						<i class="icon fa fa fa-user"></i> 人员管理
+						<i class="fa fa-angle-right" style="color: white;float: right"></i>
+>>>>>>> siran
 					</button>
 				</h2>
 			</div>
@@ -113,7 +119,11 @@ function show_menu_box(num){
 				<div class="card-body">
 
 					<ul class="nav nav-pills nav-stacked">
+<<<<<<< HEAD
 						<li><a href="userList.action"  target="rightFrame"><i class="icon fa fa fa-user-md"></i> &middot用户管理</a></li>
+=======
+						<li><a href="userList.action"  target="rightFrame"><i class="icon fa fa fa-user-md"></i> &middot用户列表</a></li>
+>>>>>>> siran
 						<li><a href="userAddPage.action"  target="rightFrame"><i class="icon fa fa-user-plus"></i> &middot添加用户</a></li>
 						<li><a href="groupList.action" target="rightFrame"><i class="icon fa fa-user-o"></i> &middot用户分组</a></li>
 						<li><a href="groupAddPage.action" target="rightFrame"><i class="icon fa fa fa-user"></i> &middot添加分组</a></li>
@@ -125,6 +135,7 @@ function show_menu_box(num){
 	</div>
 
 </div>
+<<<<<<< HEAD
 <%--<div class="app-sidebar__overlay" data-toggle="sidebar">--%>
 <%--	<aside class="app-sidebar">--%>
 <%--		<div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg" alt="User Image">--%>
@@ -255,6 +266,8 @@ function show_menu_box(num){
 <%--	  </tr>--%>
 <%--	</table>--%>
 <%--</div>--%>
+=======
+>>>>>>> siran
 <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
 <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>

@@ -10,6 +10,12 @@
 
   <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
   <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
+<<<<<<< HEAD
+=======
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+>>>>>>> siran
 
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +24,11 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <!-- Font-icon css-->
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<<<<<<< HEAD
 <title>仓库管理系统</title>
+=======
+<title>体育馆管理系统</title>
+>>>>>>> siran
 </head>
 <frameset rows="52,*,23" frameborder="no" border="0" framespacing="0">
   <frame src="jsps/top.jsp" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" />
