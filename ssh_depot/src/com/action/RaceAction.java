@@ -18,7 +18,7 @@ import java.util.List;
         @Result(name="list",location="/jsps/pages/race/race-list.jsp"),
         @Result(name="relist",type="redirect",location="raceList.action?page=${page}"),
         @Result(name="release",type="redirect",location="/jsps/pages/race/race-release.jsp"),
-
+        
 
 })
 

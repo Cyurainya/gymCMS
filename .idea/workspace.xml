@@ -7,24 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c78f37b9-f83b-4e83-a198-6b7f11e01b1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/race/race-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/action/RaceAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/action/RaceAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/dao/RaceDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/dao/RaceDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/entity/Race.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/entity/Race.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/service/RaceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/WEB-INF/classes/com/service/RaceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/race/race-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/gymCMS_war_exploded/jsps/pages/race/race-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gymCMS/com/action/RaceAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gymCMS/com/action/RaceAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gymCMS/com/dao/RaceDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gymCMS/com/dao/RaceDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gymCMS/com/entity/Race.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gymCMS/com/entity/Race.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gymCMS/com/service/RaceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gymCMS/com/service/RaceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/race/race-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/race/race-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/race/referee-brief.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/WebContent/jsps/pages/race/referee-detail.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ssh_depot/src/com/action/RaceAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/src/com/action/RaceAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/src/com/dao/RaceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/src/com/dao/RaceDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/src/com/entity/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/src/com/entity/Race.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssh_depot/src/com/service/RaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssh_depot/src/com/service/RaceService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +237,7 @@
       <workItem from="1592105310294" duration="16585000" />
       <workItem from="1592131795341" duration="986000" />
       <workItem from="1592137255298" duration="8380000" />
-      <workItem from="1592188837756" duration="15224000" />
+      <workItem from="1592188837756" duration="15640000" />
     </task>
     <servers />
   </component>
