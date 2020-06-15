@@ -18,7 +18,7 @@ import com.util.PageUtil;
 @Results({
 	@Result(name="login",location="/login.jsp"),
 	@Result(name="main",location="/jsps/main.jsp"),
-		@Result(name="back",location="/jsps/right.jsp"),
+	@Result(name="back",location="/jsps/right.jsp"),
 	@Result(name="list",location="/jsps/pages/user/user-list.jsp"),
 	@Result(name="add",location="/jsps/pages/user/user-add.jsp"),
 	@Result(name="update",location="/jsps/pages/user/user-update.jsp"),

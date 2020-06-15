@@ -127,7 +127,8 @@ function show_menu_box(num){
 			<li class="treeview">
 				<a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-hdd-o"></i><span class="app-menu__label">赛事管理</span><i class="treeview-indicator fa fa-angle-right"></i></a>
 				<ul class="treeview-menu">
-
+                     <li><a a class="treeview-item" href="raceList.action"  target="rightFrame">赛事公告</a></li>
+					<li><a a class="treeview-item" href="raceReleasePage.action"  target="rightFrame">赛事发布</a></li>
 				</ul>
 			</li>
 
