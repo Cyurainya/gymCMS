@@ -19,6 +19,7 @@ public class User {
 	private String phone;
 	@ManyToOne
 	@NotFound(action=NotFoundAction.IGNORE) // 外键找不到时忽略, 默认抛出异常
+
 	private Group grop;
 	
 	
