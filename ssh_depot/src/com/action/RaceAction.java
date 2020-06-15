@@ -10,12 +10,15 @@ import org.apache.struts2.convention.annotation.Results;
 
 import javax.annotation.Resource;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.List;
 
 @Results({
         @Result(name="list",location="/jsps/pages/race/race-list.jsp"),
         @Result(name="relist",type="redirect",location="raceList.action?page=${page}"),
         @Result(name="release",type="redirect",location="/jsps/pages/race/race-release.jsp"),
+
 
 })
 
@@ -46,6 +49,17 @@ public class RaceAction extends BaseAction{
     public String raceReleasePage(){
 
         return "release";
+    }
+
+    //通过名称查询赛事
+    @Action("raceSearch")
+    public String search(){
+        if(race != null && race.getName() != null && !race.getName().trim().isEmpty()){
+            raceList = raceService.getRaceList(race.getName());
+        }else {
+            raceList = raceService.getRaceList(page,size);
+        }
+        return "list";
     }
 
     public Race getRace(){

@@ -31,8 +31,8 @@
 <div class="panel panel-default">
     <div class="panel-body">
        <div>
-           <form action="areaSearch.action" role="form" class="searchForm">
-               <input type="text" class="form-control searchInput"  placeholder="请输入名称" >
+           <form action="raceSearch.action" role="form" class="searchForm">
+               <input type="text" class="form-control searchInput"  placeholder="请输入名称" name="race.name">
                <input class="form-control btn btn-primary searchBtn" id="submit" value="查询" type="submit" >
            </form>
        </div>
@@ -61,7 +61,7 @@
 
                 <tr >
                     <td >
-                        <div align="center"><s:property value="raceName"/></div></td>
+                        <div align="center"><s:property value="name"/></div></td>
                     <td >
                         <div align="center"><s:property value="referee"/></div></td>
                     <td >

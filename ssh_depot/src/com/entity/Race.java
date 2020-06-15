@@ -21,7 +21,7 @@ public class Race {
     private Date startTime;
     private Date endTime;
     private String referee;
-    private String raceName;
+    private String name;
     @ManyToOne
     @NotFound(action= NotFoundAction.IGNORE) // 外键找不到时忽略, 默认抛出异常
 
@@ -89,11 +89,11 @@ public class Race {
         this.time = time;
     }
 
-    public String getRaceName() {
-        return raceName;
+    public String getName() {
+        return name;
     }
 
-    public void setRaceName(String raceName) {
-        this.raceName = raceName;
+    public void setName(String name) {
+        this.name = name;
     }
 }
